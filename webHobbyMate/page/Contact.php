@@ -133,14 +133,6 @@ if (!isset($_SESSION['username'])) {
 		<input type="submit" value="Kirim">
 	</form>
 
-
-	<!--footer-->
-	<footer class="footer-main footer-main-flex">
-		<p> <span class="designed">Hobby<span>Mate</span> &copy; 2023. All rights reserved.
-		</p>
-	</footer>
-
-
 	<script>
 	const loginBtn = document.getElementById('login-btn'); 
 	loginBtn.addEventListener('click', () => {
@@ -160,5 +152,10 @@ if (!isset($_SESSION['username'])) {
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
     <script src="./js/responsif.js"></script>
+<!--footer-->
+<footer class="footer-main footer-main-flex">
+	<p> <span class="designed">Hobby<span>Mate</span> &copy; 2023. All rights reserved.
+	</p>
+</footer>
 </body>
 </html>
